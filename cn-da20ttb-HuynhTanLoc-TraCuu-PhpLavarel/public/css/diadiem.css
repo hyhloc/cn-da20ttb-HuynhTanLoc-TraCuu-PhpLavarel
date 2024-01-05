@@ -1,0 +1,122 @@
+.searchdd {
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  gap: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px
+}
+
+.search input[type="text"] {
+  width: 350px;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+.search .btn-primary {
+  background-color: blue;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: .9s ease;
+}
+
+.search button[type="submit"] {
+  background-color: blue;
+  height: 43px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: .9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+.dropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 45px;
+}
+
+.search-input,
+.dropdown,
+.search-button {
+  margin: 0; /* Loại bỏ margin mặc định */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.searchhotel{
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  gap: 50px
+}
+
+.searchhotel1 {
+  display: inline-block;
+  position: relative;
+}
+
+.searchhotel1 input[type="text"] {
+  width: 550px;
+  height: 52px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.searchhotel1 button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: .9s ease;
+  width: 120px;
+  height: 52px;
+  font-size: 18px;
+}
+
+.searchhotel1 button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
